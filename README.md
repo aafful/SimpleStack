@@ -15,6 +15,6 @@ OUTPUT SAMPLE:
 
 Print to stdout every alternate space delimited integer, one per line.
 
-For example:
-   1: 4 2
+    For example:
+    1: 4 2
     2: 4 -2
