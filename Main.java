@@ -28,7 +28,7 @@ public class Main {
         }
 
         /**
-         * Gets the size of a MyStack instance
+         * Gets the size of a MyStack instance. 
          * @return size of the current MyStack instance
          */
         private int size(){
@@ -36,7 +36,9 @@ public class Main {
         }
 
         /**
-         * Pushes an integer value in a MyStack instance
+         * Pushes an integer value in a MyStack instance.If the current stack instance is full. A new stack is
+         * created with twice the size of the old stack. The values in the old stack are then copied into the
+         * new stack before pushing the new interger value unto the stacck.
          * @param num to be pushed
          */
         private void push(int num){
